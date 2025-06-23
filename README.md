@@ -19,13 +19,14 @@ This project aims to classify fashion product images into categories using deep 
 
 ## 📊 Results
 
-- Accuracy: ~`xx%` (Fill after training)
-- Loss: `...`
-- Confusion matrix, accuracy plots available in the notebook.
+- Train Accuracy: 0.9268
+- Val Accuracy: 0.8682
+- Train Loss: 0.2180
+- Val Loss: 0.4508
 
 ## 🔧 Setup
+jupyter notebook fashion_prediction_resnet.ipynb
 
 ### Requirements
+pip install kagglehub torch torchvision pandas scikit-learn matplotlib tqdm
 
-```bash
-pip install -r requirements.txt
